@@ -2,7 +2,7 @@
   "name": "laika-webdriver",
   "version": "0.1.0",
   "description": "WebDriver plug-in for Laika (experimental)",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,8 +13,12 @@
   "keywords": [
     "meteor",
     "testing",
+    "selenium",
     "webdriver"
   ],
+  "dependencies": {
+    "selenium-webdriver": "~2.39.0"
+  },
   "author": "Lalo Martins <lalo.martins@gmail.com>",
   "license": "MIT"
 }
