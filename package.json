@@ -19,6 +19,9 @@
   "dependencies": {
     "selenium-webdriver": "~2.39.0"
   },
+  "peerDependencies": {
+    "laika": "~0.3.7"
+  },
   "author": "Lalo Martins <lalo.martins@gmail.com>",
   "license": "MIT"
 }
